@@ -6,7 +6,17 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+# load required libs
+library(plyr, warn.conflicts = FALSE)
+library(dplyr, warn.conflicts = FALSE)
+library(ggplot2, warn.conflicts = FALSE)
+library(knitr, warn.conflicts = FALSE)
+library(xtable, warn.conflicts = FALSE)
+knitr::opts_chunk$set(echo=TRUE, message=FALSE, tidy=TRUE, comment=NA,
+               cache=TRUE, fig.path="figure/", fig.keep="high",
+               fig.width=10, fig.height=6,
+               fig.align="center")
+
 ```
 
 ## Executive Summary
