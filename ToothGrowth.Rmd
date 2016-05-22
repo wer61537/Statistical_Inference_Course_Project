@@ -1,18 +1,3 @@
-<style type="text/css">
-/*  CSS chunck 1  */
-th {  background-color:#E0E0E0 ;
-      border-bottom:1px solid black;
-      padding:5px;}
-
-td{
-border-bottom:1px dotted black;
-padding:5px;}
-
-table{ 
-border-collapse:collapse;
-margin:auto;
- border: 1px solid black;}
-</style>
 ---
 title: "Analysis of Ascorbic Acid Dose and Matrix Effects on Odontoblast Growth in Guinea Pigs"
 author: "Bill Rowe"
@@ -314,4 +299,4 @@ sessionInfo()
 ```
 
 The source code for this document and the analysis is stored in GitHub at: 
-https://github.com/wer61537/Servere_Weather_Events
+https://github.com/wer61537/Statistical_Inference_Course_Project.  The R code is at https://github.com/wer61537/Statistical_Inference_Course_Project/blob/master/tooth_growth.R.  The Markdown document is at https://github.com/wer61537/Statistical_Inference_Course_Project/blob/master/ToothGrowth.Rmd
