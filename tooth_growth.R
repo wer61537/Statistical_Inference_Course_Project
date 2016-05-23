@@ -1,5 +1,9 @@
-library(plyr)
-library(ggplot2)
+library(plyr, warn.conflicts = FALSE)
+library(dplyr, warn.conflicts = FALSE)
+library(ggplot2, warn.conflicts = FALSE)
+library(knitr, warn.conflicts = FALSE)
+library(xtable, warn.conflicts = FALSE)
+
 
 #get the dataset that is part of R
 data(ToothGrowth)
