@@ -3,7 +3,11 @@ library(dplyr, warn.conflicts = FALSE)
 library(ggplot2, warn.conflicts = FALSE)
 library(knitr, warn.conflicts = FALSE)
 library(xtable, warn.conflicts = FALSE)
+library('RColorBrewer')
 
+#set color scheme for graphing
+blues <- brewer.pal(5, 'Blues')[3:5]
+reds <- brewer.pal(5, 'Reds')[3:5]
 
 #get the dataset that is part of R
 data(ToothGrowth)
