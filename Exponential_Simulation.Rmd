@@ -1,5 +1,5 @@
 ---
-title: "Exponential_Simulation"
+title: "Exploration Exponential Distribution by Simulation"
 author: "Bill Rowe"
 date: "May 22, 2016"
 output: html_document
